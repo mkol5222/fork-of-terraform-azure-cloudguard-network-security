@@ -181,7 +181,7 @@ resource "azapi_resource" "managed_app" {
           value = var.license_type
         },
         imageVersion = {
-          value = element(local.image_versions, length(local.image_versions) - 1)
+          value = "8200.900777.1869"
         },
         scaleUnit = {
           value = var.scale_unit
